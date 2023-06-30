@@ -1,0 +1,74 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://static.wixstatic.com/media/e51675_ce673a20eddf452a97ec0794be9e0ab5~mv2.jpg/v1/fill/w_801,h_543,al_c,q_90/e51675_ce673a20eddf452a97ec0794be9e0ab5~mv2.jpg);
+  background-size:1000px;
+  background-repeat: no-repeat;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aquamarine;
+  border-color:black;
+  border-width: 2px;
+}
+#button1{
+    border-color:black;
+    border-width: 2px;
+    background-color:blue;
+    padding: 5px;
+    max-width:80px;
+}
+#button1:hover{
+    background-color: yellow;
+}
+
+.one {
+  text-align: center;
+  background-color: aqua;
+
+}
+#two{
+    background-color:darkorange;
+}
+
+#task-input {
+  width: 80%;
+  padding: 10px;
+  background-color:chartreuse;
+  border-color:darkorange;
+  
+}
+#task-input:hover{
+    background-color: yellow;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"]
+ {
+  margin-right: 10px;
+
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-item button {
+  margin-left: auto;
+}
